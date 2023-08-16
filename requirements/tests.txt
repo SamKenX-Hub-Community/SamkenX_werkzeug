@@ -9,14 +9,14 @@ attrs==22.2.0
     # via pytest
 cffi==1.15.1
     # via cryptography
-cryptography==39.0.1
-    # via -r requirements/tests.in
+cryptography==41.0.3
+    # via -r tests.in
 ephemeral-port-reserve==1.1.4
-    # via -r requirements/tests.in
+    # via -r tests.in
 exceptiongroup==1.1.0
     # via pytest
 greenlet==2.0.2 ; python_version < "3.11"
-    # via -r requirements/tests.in
+    # via -r tests.in
 iniconfig==2.0.0
     # via pytest
 packaging==23.0
@@ -31,14 +31,14 @@ pycparser==2.21
     # via cffi
 pytest==7.2.1
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pytest-timeout
     #   pytest-xprocess
 pytest-timeout==2.1.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-xprocess==0.22.2
-    # via -r requirements/tests.in
+    # via -r tests.in
 tomli==2.0.1
     # via pytest
 watchdog==2.3.1
-    # via -r requirements/tests.in
+    # via -r tests.in
